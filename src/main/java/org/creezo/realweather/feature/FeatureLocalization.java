@@ -64,7 +64,7 @@ public class FeatureLocalization {
         if (data.containsKey(key)) {
             return data.get(key);
         } else {
-            return "Locale ERROR. Key not found";
+            return "Locale ERROR. Key not found: " + key;
         }
     }
 }

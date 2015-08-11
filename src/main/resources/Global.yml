@@ -1,0 +1,336 @@
+fileVersion: 5
+# Global does not depend on biome
+HeatCheckRadius: 3
+PlayerHeat: 1
+MaxMapHeightTemperatureModifier: -40
+SeaLevel: 62
+ShowersRainChance: 25
+BiomesAverageTemp:
+  BEACH: 15
+  BIRCH_FOREST: 15
+  BIRCH_FOREST_HILLS: 10
+  BIRCH_FOREST_HILLS_MOUNTAINS: 7
+  BIRCH_FOREST_MOUNTAINS: 7
+  COLD_BEACH: 0
+  COLD_BEACH: 5
+  COLD_TAIGA: 0
+  COLD_TAIGA_HILLS: -3
+  COLD_TAIGA_MOUNTAINS: -5
+  DEEP_OCEAN: 10
+  DEEP_OCEAN: 13
+  DESERT: 30
+  DESERT_HILLS: 25
+  DESERT_MOUNTAINS: 20
+  EXTREME_HILLS: 17
+  EXTREME_HILLS_EDGE: 12
+  EXTREME_HILLS_MOUNTAINS: 15
+  EXTREME_HILLS_PLUS: 12
+  EXTREME_HILLS_PLUS_MOUNTAINS: 10
+  FLOWER_FOREST: 15
+  FORES_THILLS: 10
+  FOREST: 15
+  FROZEN_OCEAN: 5
+  FROZEN_RIVER: 0
+  HELL: 30
+  ICE_MOUNTAINS: 0
+  ICE_PLAINS: 0
+  ICE_PLAINS_SPIKES: 0
+  JUNGLE: 30
+  JUNGLE_EDGE: 25
+  JUNGLE_HILLS: 25
+  JUNGLE_MOUNTAINS: 25
+  MEGA_SPRUCE_TAIGA: 7
+  MEGA_SPRUCE_TAIGA_HILLS: 2
+  MEGA_TAIGA: 7
+  MEGA_TAIGA_HILLS: 2
+  MESA: 23
+  MESA_BRYCE: 17
+  MESA_PLATEAU: 20
+  MESA_PLATEAU_FOREST: 17
+  MESA_PLATEAU_FOREST_MOUNTAINS: 15
+  MESA_PLATEAU_MOUNTAINS: 15
+  MUSHROOM_ISLAND: 15
+  MUSHROOM_SHORE: 15
+  OCEAN: 15
+  PLAINS: 20
+  RIVER: 15
+  ROOFED_FOREST: 15
+  ROOFED_FOREST_MOUNTAINS: 13
+  SAVANNA: 25
+  SAVANNA_MOUNTAINS: 20
+  SAVANNA_PLATEAU: 22
+  SAVANNA_PLATEAU_MOUNTAINS: 20
+  SKY: 15
+  SMALL_MOUNTAINS: 15
+  STONE_BEACH: 13
+  SUNFLOWER_PLAINS: 20
+  SWAMPLAND: 15
+  TAIGA: 3
+  TAIGA_HILLS: 0
+  TAIGA_MOUNTAINS: -3
+BiomesWeatherTempModifier:
+  BEACH: -5
+  BIRCH_FOREST: -5
+  BIRCH_FOREST_HILLS: -12
+  BIRCH_FOREST_HILLS_MOUNTAINS: -15
+  BIRCH_FOREST_MOUNTAINS: -20
+  COLD_BEACH: -8
+  COLD_TAIGA: -8
+  COLD_TAIGA_HILLS: -12
+  COLD_TAIGA_MOUNTAINS: -20
+  DEEP_OCEAN: -5
+  DESERT: -8
+  DESERT_HILLS: -12
+  DESERT_MOUNTAINS: -20
+  EXTREME_HILLS: -8
+  EXTREME_HILLS_EDGE: -8
+  EXTREME_HILLS_MOUNTAINS: -20
+  EXTREME_HILLS_PLUS: -10
+  EXTREME_HILLS_PLUS_MOUNTAINS: -20
+  FLOWER_FOREST: -5
+  FOREST: -5
+  FOREST_HILLS: -12
+  FROZEN_OCEAN: -8
+  FROZEN_RIVER: -8
+  HELL: 0
+  ICE_MOUNTAINS: -8
+  ICE_PLAINS: -6
+  ICE_PLAINS_SPIKES: -7
+  JUNGLE: -5
+  JUNGLE_EDGE: -6
+  JUNGLE_EDGE_MOUNTAINS: -10
+  JUNGLE_HILLS: -8
+  JUNGLE_MOUNTAINS: -12
+  MEGA_SPRUCE_TAIGA: -5
+  MEGA_SPRUCE_TAIGA_HILLS: -8
+  MEGA_TAIGA: -5
+  MEGA_TAIGA_HILLS: -10
+  MESA: -8
+  MESA_BRYCE: -8
+  MESA_PLATEAU: -10
+  MESA_PLATEAU_FOREST: -8
+  MESA_PLATEAU_FOREST_MOUNTAINS: -12
+  MESA_PLATEAU_MOUNTAINS: -15
+  MUSHROOM_ISLAND: -5
+  MUSHROOM_SHORE: -5
+  OCEAN: -5
+  PLAINS: -5
+  RIVER: -5
+  ROOFED_FOREST: -3
+  ROOFED_FOREST_MOUNTAINS: -5
+  SAVANNA: -8
+  SAVANNA_PLATEAU: -9
+  SAVANNA_PLATEAU_MOUNTAINS: -15
+  SKY: 0
+  SMALL_MOUNTAINS: -10
+  STONE_BEACH: -5
+  SUNFLOWER_PLAINS: -5
+  SWAMPLAND: -5
+  SWAMPLAND_MOUNTAINS: -10
+  TAIGA: -8
+  TAIGA_MOUNTAINS: -15
+  TAIGAHILLS: -10
+BiomeDayNightTempModifier:
+  BEACH:
+    Day: 5
+    Night: -5
+  BIRCH_FOREST:
+    Day: 5
+    Night: -8
+  BIRCH_FOREST_HILLS:
+    Day: 6
+    Night: -8
+  BIRCH_FOREST_HILLS_MOUNTAINS:
+    Day: 6
+    Night: -8
+  BIRCH_FOREST_MOUNTAINS:
+    Day: 5
+    Night: -10
+  COLD_BEACH:
+    Day: 5
+    Night: -8
+  COLD_TAIGA:
+    Day: 5
+    Night: -9
+  COLD_TAIGA_HILLS:
+    Day: 5
+    Night: -18
+  COLD_TAIGA_MOUNTAINS:
+    Day: 5
+    Night: -27
+  DEEP_OCEAN:
+    Day: 5
+    Night: -10
+  DESERT:
+    Day: 15
+    Night: -25
+  DESERT_HILLS:
+    Day: 10
+    Night: -30
+  DESERT_MOUNTAINS:
+    Day: 5
+    Night: -35
+  EXTREME_HILLS:
+    Day: 8
+    Night: -12
+  EXTREME_HILLS_MOUNTAINS:
+    Day: 5
+    Night: -17
+  EXTREME_HILLS_PLUS:
+    Day: 8
+    Night: -12
+  EXTREME_HILLS_PLUS_MOUNTAINS:
+    Day: 5
+    Night: -17
+  FLOWER_FOREST:
+    Day: 5
+    Night: -8
+  FOREST:
+    Day: 5
+    Night: -8
+  FOREST_HILLS:
+    Day: 5
+    Night: -8
+  FROZEN_OCEAN:
+    Day: 5
+    Night: -8
+  FROZEN_RIVER:
+    Day: 5
+    Night: -8
+  HELL:
+    Day: 0
+    Night: 0
+  ICE_MOUNTAINS:
+    Day: 5
+    Night: -12
+  ICE_PLAINS:
+    Day: 5
+    Night: -12
+  ICE_PLAINS_SPIKES:
+    Day: 5
+    Night: -12
+  JUNGLE:
+    Day: 8
+    Night: -8
+  JUNGLE_EDGE:
+    Day: 7
+    Night: -9
+  JUNGLE_EDGE_MOUNTAINS:
+    Day: 8
+    Night: -8
+  JUNGLE_HILLS:
+    Day: 8
+    Night: -8
+  JUNGLE_MOUNTAINS:
+    Day: 5
+    Night: -8
+  MEGA_SPRUCE_TAIGA:
+    Day: 5
+    Night: -8
+  MEGA_SPRUCE_TAIGA_HILLS:
+    Day: 5
+    Night: -12
+  MEGA_TAIGA:
+    Day: 5
+    Night: -8
+  MEGA_TAIGA_HILLS:
+    Day: 5
+    Night: -12
+  MESA:
+    Day: 8
+    Night: -15
+  MESA_BRYCE:
+    Day: 8
+    Night: -15
+  MESA_PLATEAU:
+    Day: 8
+    Night: -15
+  MESA_PLATEAU_FOREST:
+    Day: 5
+    Night: -10
+  MESA_PLATEAU_FOREST_MOUNTAINS:
+    Day: 5
+    Night: -15
+  MESA_PLATEAU_MOUNTAINS:
+    Day: 5
+    Night: -25
+  MUSHROOM_ISLAND:
+    Day: 5
+    Night: -5
+  MUSHROOM_SHORE:
+    Day: 5
+    Night: -5
+  OCEAN:
+    Day: 5
+    Night: -10
+  PLAINS:
+    Day: 5
+    Night: -5
+  RIVER:
+    Day: 5
+    Night: -5
+  ROOFED_FOREST:
+    Day: 5
+    Night: -5
+  ROOFED_FOREST_MOUNTAINS:
+    Day: 5
+    Night: -10
+  SAVANNA:
+    Day: 8
+    Night: -8
+  SAVANNA_MOUNTAINS:
+    Day: 5
+    Night: -15
+  SAVANNA_PLATEAU:
+    Day: 8
+    Night: -8
+  SAVANNA_PLATEAU_MOUNTAINS:
+    Day: 5
+    Night: -15
+  SKY:
+    Day: 0
+    Night: 0
+  SMALL_MOUNTAINS:
+    Day: 5
+    Night: -8
+  STONE_BEACH:
+    Day: 7
+    Night: -7
+  SUNFLOWER_PLAINS:
+    Day: 5
+    Night: -8
+  SWAMPLAND:
+    Day: 5
+    Night: -5
+  SWAMPLAND_MOUNTAINS:
+    Day: 5
+    Night: -10
+  TAIGA:
+    Day: 5
+    Night: -8
+  TAIGA_HILLS:
+    Day: 5
+    Night: -16
+  TAIGA_MOUNTAINS:
+    Day: 5
+    Night: -20
+HeatSources:
+  LAVA: 20
+  STATIONARY_LAVA: 20
+  TORCH: 6
+  FIRE: 10
+  BURNING_FURNACE: 10
+  SNOW: -0.5
+  ICE: -2
+  SNOW_BLOCK: -1
+  GLOWSTONE: 0.25
+  JACK_O_LANTERN: 2
+  REDSTONE_LAMP_ON: 1
+  WOOL: 0.25
+HeatInHand:
+  TORCH: 6
+  LAVA_BUCKET: 20
+  ICE: -3
+  SNOW_BLOCK: -1.5
+BedTemperatureBonus: 10
+TorchesFading: true

@@ -3,13 +3,12 @@ package org.creezo.realweather;
 import java.util.List;
 import java.util.Random;
 import java.util.logging.Level;
-import net.minecraft.server.v1_7_R1.BiomeBase;
-import net.minecraft.server.v1_7_R1.World;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.World;
+import org.bukkit.block.Biome;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
-import org.bukkit.craftbukkit.v1_7_R1.CraftWorld;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -36,9 +35,9 @@ public class CheckCenter {
             if (RealWeather.isDebug()) {
                 RealWeather.log("Starting temp calculation.");
             }
-            World world = ((CraftWorld) location.getWorld()).getHandle();
-            BiomeBase biome = world.getBiome(location.getBlockX(), location.getBlockZ());
-            String biomeName = biome.af;
+            World world = ((World) location.getWorld());
+            Biome biome = world.getBiome(location.getBlockX(), location.getBlockZ());
+            String biomeName = biome.name();
             if (RealWeather.isDebug()) {
                 RealWeather.log("Biome: " + biomeName.toUpperCase());
             }
@@ -286,15 +285,15 @@ public class CheckCenter {
         return inside;
     }
 
-    public static BiomeBase checkPlayerBiome(Player player) {
-        World world = ((CraftWorld) player.getLocation().getWorld()).getHandle();
-        BiomeBase BiomeType = world.getBiome(player.getLocation().getBlockX(), player.getLocation().getBlockZ());
+    public static Biome checkPlayerBiome(Player player) {
+        World world = ((World) player.getLocation().getWorld());
+        Biome BiomeType = world.getBiome(player.getLocation().getBlockX(), player.getLocation().getBlockZ());
         return BiomeType;
     }
 
-    public static BiomeBase checkPlayerBiome(Location loc) {
-        World world = ((CraftWorld) loc.getWorld()).getHandle();
-        BiomeBase BiomeType = world.getBiome(loc.getBlockX(), loc.getBlockZ());
+    public static Biome checkPlayerBiome(Location loc) {
+        World world = ((World) loc.getWorld());
+        Biome BiomeType = world.getBiome(loc.getBlockX(), loc.getBlockZ());
         return BiomeType;
     }
 
